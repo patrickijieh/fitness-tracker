@@ -14,6 +14,7 @@
 		164E6C622E1B16E600970E05 /* fitness_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C612E1B16E600970E05 /* fitness_trackerTests.swift */; };
 		164E6C6C2E1B16E600970E05 /* fitness_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C6B2E1B16E600970E05 /* fitness_trackerUITests.swift */; };
 		164E6C6E2E1B16E600970E05 /* fitness_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C6D2E1B16E600970E05 /* fitness_trackerUITestsLaunchTests.swift */; };
+		1676FAD52E1B17D400ADEF72 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1676FAD42E1B17D400ADEF72 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		164E6C672E1B16E600970E05 /* fitness-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fitness-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		164E6C6B2E1B16E600970E05 /* fitness_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitness_trackerUITests.swift; sourceTree = "<group>"; };
 		164E6C6D2E1B16E600970E05 /* fitness_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitness_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1676FAD42E1B17D400ADEF72 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		164E6C442E1B16E200970E05 = {
 			isa = PBXGroup;
 			children = (
+				1676FAD42E1B17D400ADEF72 /* .gitignore */,
 				164E6C4F2E1B16E200970E05 /* fitness-tracker */,
 				164E6C602E1B16E600970E05 /* fitness-trackerTests */,
 				164E6C6A2E1B16E600970E05 /* fitness-trackerUITests */,
@@ -215,6 +218,9 @@
 				Base,
 			);
 			mainGroup = 164E6C442E1B16E200970E05;
+			packageReferences = (
+				164E6C7A2E1B170C00970E05 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			productRefGroup = 164E6C4E2E1B16E200970E05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				164E6C582E1B16E600970E05 /* Preview Assets.xcassets in Resources */,
+				1676FAD52E1B17D400ADEF72 /* .gitignore in Resources */,
 				164E6C552E1B16E600970E05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +589,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		164E6C7A2E1B170C00970E05 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 164E6C452E1B16E200970E05 /* Project object */;
 }
