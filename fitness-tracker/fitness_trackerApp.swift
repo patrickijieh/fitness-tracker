@@ -11,7 +11,7 @@ import SwiftUI
 struct fitness_trackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView();
         }
     }
 }
