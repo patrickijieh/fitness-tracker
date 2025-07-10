@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Welcome: View {
+struct WelcomeScreen: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")

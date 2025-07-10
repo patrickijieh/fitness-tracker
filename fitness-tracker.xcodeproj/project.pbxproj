@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		164E6C512E1B16E200970E05 /* fitness_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C502E1B16E200970E05 /* fitness_trackerApp.swift */; };
-		164E6C532E1B16E200970E05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C522E1B16E200970E05 /* ContentView.swift */; };
+		164E6C512E1B16E200970E05 /* fitnessTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C502E1B16E200970E05 /* fitnessTrackerApp.swift */; };
+		164E6C532E1B16E200970E05 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C522E1B16E200970E05 /* WelcomeScreen.swift */; };
 		164E6C552E1B16E600970E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164E6C542E1B16E600970E05 /* Assets.xcassets */; };
 		164E6C582E1B16E600970E05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164E6C572E1B16E600970E05 /* Preview Assets.xcassets */; };
 		164E6C622E1B16E600970E05 /* fitness_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C612E1B16E600970E05 /* fitness_trackerTests.swift */; };
@@ -37,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		164E6C4D2E1B16E200970E05 /* fitness-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fitness-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		164E6C502E1B16E200970E05 /* fitness_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitness_trackerApp.swift; sourceTree = "<group>"; };
-		164E6C522E1B16E200970E05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		164E6C502E1B16E200970E05 /* fitnessTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitnessTrackerApp.swift; sourceTree = "<group>"; };
+		164E6C522E1B16E200970E05 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		164E6C542E1B16E600970E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164E6C572E1B16E600970E05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		164E6C5D2E1B16E600970E05 /* fitness-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fitness-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +99,8 @@
 		164E6C4F2E1B16E200970E05 /* fitness-tracker */ = {
 			isa = PBXGroup;
 			children = (
-				164E6C502E1B16E200970E05 /* fitness_trackerApp.swift */,
-				164E6C522E1B16E200970E05 /* ContentView.swift */,
+				164E6C502E1B16E200970E05 /* fitnessTrackerApp.swift */,
+				164E6C522E1B16E200970E05 /* WelcomeScreen.swift */,
 				164E6C542E1B16E600970E05 /* Assets.xcassets */,
 				164E6C562E1B16E600970E05 /* Preview Content */,
 				1676FB152E1B515D00ADEF72 /* LaunchScreen.storyboard */,
@@ -268,8 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164E6C532E1B16E200970E05 /* ContentView.swift in Sources */,
-				164E6C512E1B16E200970E05 /* fitness_trackerApp.swift in Sources */,
+				164E6C532E1B16E200970E05 /* WelcomeScreen.swift in Sources */,
+				164E6C512E1B16E200970E05 /* fitnessTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
